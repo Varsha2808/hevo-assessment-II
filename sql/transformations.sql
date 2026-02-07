@@ -1,4 +1,4 @@
---Cleaned Customer model
+--To clean customers_raw
 
 SELECT
     t.customer_id,
@@ -50,7 +50,7 @@ WHERE t.rn = 1
 order by customer_id;
 
 
---Cleaned Orders table 
+--To clean Orders_raw
 
 SELECT *
 FROM (
@@ -84,10 +84,7 @@ WHERE rn = 1
 order by customer_id;
 
 
-
-
-
---Cleaned Product table
+--To clean products_raw
 
 SELECT
     product_id,
@@ -100,9 +97,7 @@ SELECT
 FROM products_raw;
 
 
-
-
---Final dataset
+--Logic for Final dataset
 
 SELECT
     o.order_id,
