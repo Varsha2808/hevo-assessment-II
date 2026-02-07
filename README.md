@@ -142,7 +142,7 @@ GRANT SELECT ON TABLES TO hevo_user;
 ## Deliverables
 - **GitHub Repo Link:** 
 - **Hevo Details:**  
-  - Name: Varsha Singh  
+  - Name: varsha2808  
   - Pipeline ID: 1  
   - Model Numbers: 1, 2, 3 & 4  
 - **Loom Video Link:** https://www.loom.com/share/348229b688b54ece9778e6a6fe7805f0
